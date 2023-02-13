@@ -21,7 +21,7 @@ body {
 
 /** image-bob */
 .image-bob{
-    transition: 0.5s;
+    transition: 1s;
 }.image-bob:hover {
     transform: translateY(13px);
     z-index: 102;
