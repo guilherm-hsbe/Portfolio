@@ -8,26 +8,30 @@ body {
     margin: 0;
 }
 
-/** navbar */
-.navbar ul {
-    list-style-type: none;
-    overflow: hidden;
-    background-color: #333;
-}
-  
-.navbar li {
-    float: left;
-    margin-bottom: 0;
-}
-  
-.navbar li a {
-    display: block;
+/** botão */
+
+.bot {
+    background-color: #6C63FF;
     color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+} .bot:hover {
+    transition: 0.3s;
+    background-color: #3F3D56;
+    color: white;
 }
 
-.navbar li a:hover {
-    background-color: #111;
+/** image-bob */
+.image-bob{
+    transition: 0.5s;
+}.image-bob:hover {
+    transform: translateY(13px);
+    z-index: 102;
+}
+
+/** navbar-hover */
+.nav-hover{
+    border-radius: 15px;
+}.nav-hover:hover{
+    transition: 0.3s;
+    background-color: aliceblue;
+    color: #3F3D56 !important;
 }
