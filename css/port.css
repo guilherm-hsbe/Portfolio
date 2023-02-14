@@ -8,29 +8,59 @@ body {
     margin: 0;
 }
 
-/** botão */
+/** text-highlight */
+.text-high{
+    color: #3F3D56;
+    font-weight: 600;
+}
+
+/** button-style-hover */
 .bot {
-    background-color: #6C63FF;
-    color: white;
-} .bot:hover {
-    transition: 0.3s;
     background-color: #3F3D56;
     color: white;
+    transition: 0.3s;
+} 
+.bot:hover {
+    background-color: #6C63FF;
+    color: white;
+}
+.bot:active{
+    transform: translateY(7px);
 }
 
 /** image-bob */
 .image-bob{
     transition: 1s;
-}.image-bob:hover {
+}
+.image-bob:hover {
     transform: translateY(13px);
     z-index: 102;
+}
+.image-bob:active{
+    transform: translateY(-13px);
+}
+
+/** disable-image */
+.dis-img{
+    pointer-events: none;
 }
 
 /** navbar-hover */
 .nav-hover{
     border-radius: 15px;
-}.nav-hover:hover{
+}
+.nav-hover:hover{
     transition: 0.3s;
     background-color: aliceblue;
     color: #3F3D56 !important;
+}
+
+
+
+/** server-down */
+.server-down{
+    transition: 0.3s;
+}
+.server-down:hover{
+    transform: scale(1.02);
 }
