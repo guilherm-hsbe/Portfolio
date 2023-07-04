@@ -1,34 +1,40 @@
-/** font */
+/*? Classes Gerais ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif !important;
 }
 
-/** body */
 body {
     margin: 0;
+    background: linear-gradient(180deg, #0E0B13 0%, #171221 100%);
 }
 
-/** text-highlight */
-.text-high{
-    color: #3F3D56;
-    font-weight: 600;
+/*? Classes Reutilzáveis ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/** disable-image */
+.dis-img{
+    pointer-events: none;
 }
 
-/** button-style-hover */
-.bot {
-    background-color: #3F3D56;
-    color: white;
-    transition: 0.3s;
-} 
-.bot:hover {
-    background-color: #6C63FF;
-    color: white;
-}
-.bot:active{
-    transform: translateY(7px);
+.fs-5 {
+    font-size: 1.15rem !important;
 }
 
-/** image-bob */
+/*? Classes Específicas ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/** navbar */
+.navbar {
+    background: linear-gradient(90deg, #29262d 0%, #342942 100%) !important;
+}
+.navbar a {
+    background-color: #8274BA42 !important;
+    margin: 0 0.5vw;
+    border-radius: 15px;
+}
+.navbar a:hover {
+    color: white !important;
+    background-color: #a796eb7a !important;
+}
+
+/** presentation */
+/* image */
 .image-bob{
     transition: 1s;
 }
@@ -40,27 +46,21 @@ body {
     transform: translateY(-13px);
 }
 
-/** disable-image */
-.dis-img{
-    pointer-events: none;
+/* presentation */
+.presentation-div {
+    border-radius: 10px;
+    background: var(--divs-x, linear-gradient(180deg, rgba(59, 37, 87, 0.75) 0%, rgba(21, 17, 29, 0.00) 100%));
 }
 
-/** navbar-hover */
-.nav-hover{
-    border-radius: 15px;
-}
-.nav-hover:hover{
-    transition: 0.3s;
-    background-color: aliceblue;
-    color: #3F3D56 !important;
-}
-
-
-
-/** server-down */
-.server-down{
-    transition: 0.3s;
-}
-.server-down:hover{
-    transform: scale(1.02);
+/* aplication-button */
+.aplic-button {
+    background-color: #ffffff;
+    color: #0E0B13;
+    border-radius: 2px;
+    transition: 0.1s;
+} 
+.aplic-button:hover {
+    background-color: #0e0b1300;
+    color: white;
+    border: 1px solid white;
 }

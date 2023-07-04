@@ -6,22 +6,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Bem-vindo</title>
 
-    <!-- bootstrap-css -->
+    <!--* bootstrap-css -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <!--* css -->
     <link rel="stylesheet" href="css/port.css">
 
-    <!-- font -->
+    <!--* js -->
+    <link rel="stylesheet" href="scripts/jscripts.js">
+
+    <!--* font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap" rel="stylesheet">
 
-    <!-- tab-icon -->
+    <!--* tab-icon -->
     <link rel="shortcut icon" href="svg/undraw_pic_profile_re_7g2h.svg"/>
 </head>
 
 <body>
-    <!--* navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary bg-dark" data-bs-theme="dark">
+    <!--! navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark">
         <div class="container-fluid">
           <!-- collapse-button -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,59 +36,63 @@
           <!-- navbar-content -->
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav mx-auto" >
-                <li><img src="svg/icons/person-fill.svg" alt="Icon" class="w-100 h-100 user-select-none" style="width: 2rem !important;" draggable="false"></li>
-                <li class="nav-item"><a class="nav-link active user-select-none nav-hover" aria-current="page" href="#sobre" draggable="false">Sobre Mim</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none nav-hover" href="#" draggable="false">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none nav-hover" href="#" draggable="false">Contato</a></li>
+                <li class="nav-item"><a class="nav-link active user-select-none" aria-current="page" href="#sobre" draggable="false">Sobre Mim</a></li>
+                <li class="nav-item"><a class="nav-link user-select-none" href="#projetos" draggable="false">Projetos</a></li>
+                <li class="nav-item"><a class="nav-link user-select-none" href="#habilidades" draggable="false">Habilidades</a></li>
+                <li class="nav-item"><a class="nav-link user-select-none" href="#formação" draggable="false">Formação</a></li>
+                <li class="nav-item"><a class="nav-link user-select-none" href="#contato" draggable="false">Contato</a></li>
             </ul>
           </div>
         </div>
     </nav><!-- /navbar -->
 
     <!--* page -->
-    <div class="container" id="#sobre">
+    <div class="container">
         <div class="row">
             <div class="col-auto"></div>
 
             <!--* body -->
             <div class="col-8 mx-auto">
+
+                <!--! presentation -->
                 <div class="mt-5">
                     <!-- img -->
                     <img src="svg/undraw_stars_re_6je7.svg" class="img-fluid mx-auto d-block w-50 h-50 image-bob" alt="Illustration" draggable="false">
 
-                    <!-- presentation-name -->
-                    <h1 class="text-center fw-bolder user-select-none mt-5">Olá, meu nome é <br> Guilherme Henrique!</h1>
+                    <!-- div -->
+                    <div class="presentation-div text-center text-white mt-5 mx-auto" id="sobre" style="width: 66% !important;">
+                        <!-- presentation-name -->
+                        <h1 class="fw-bolder user-select-none pt-4">
+                            Sobre Mim
+                        </h1>
 
-                    <!-- presentation-text -->
-                    <p class="col-8 mx-auto mt-4 fs-5" style="text-align:justify; text-justify:inter-word">
-                        Tenho 20 anos, estudo de <span class="text-high">Análise e Desenvolvimento de Sistemas</span> na Fatec de Presidente Prudente e estou no último termo do curso.
-                    </p>
+                        <div class="col-10 mx-auto fs-5">
+                            <!-- presentation-text -->
+                            <p class="mt-4 ">
+                                Olá! Meu nome é <b>Guilherme Henrique</b> e sou estudante de <b>Análise e Desenvolvimento de Sistemas</b>.
+                            </p>
 
-                    <p class="col-8 mx-auto mt-2 fs-5" style="text-align:justify; text-justify:inter-word">
-                        Sinto-me mais à vontade com o desenvolvimento front-end, embora os outros campos da área não sejam desinteressantes.
-                    </p>
+                            <!-- presentation-text 2-->
+                            <p class="mt-4" style="color:#ffffffd8">
+                                Tenho um forte interesse em tecnologias e minhas principais áreas de interesse incluem <b>desenvolvimento web, realidade virtual e informática musical</b>.
+                            </p>
 
-                    <!-- application-dwld -->
-                    <a href="https://docs.google.com/document/d/1Jn7KF9v1-Wmu-O6UW5BCh2n8A73ZQshP9XDviU0CHsY/edit?usp=sharing" target="_blank" type="button" class="btn bot mx-auto d-block mt-4 d-flex rounded-5 rounded-top-2" style="width: 10rem;" draggable="false">
-                        <img src="svg/icons/file-earmark-arrow-down-fill.svg" alt="Download Icon" class="w-50 dis-img">
-                        Acesse meu Currículo
-                    </a>
+                            <!-- presentation-text 3-->
+                            <p class="mt-4" style="color:#ffffff9a">
+                                Meu objetivo é utilizar minhas habilidades e conhecimentos para <b>criar soluções tecnológicas</b> eficientes e eficazes para problemas do mundo real.
+                            </p>
+                        </div>
+
+                        <!-- application-button -->
+                        <a href="https://docs.google.com/document/d/1Jn7KF9v1-Wmu-O6UW5BCh2n8A73ZQshP9XDviU0CHsY/edit?usp=sharing" target="_blank" type="button" draggable="false"
+                        class="btn aplic-button mx-auto mt-4">
+                            Meu currículo >
+                        </a>
+                    </div><!-- /presentation -->
                 </div>
 
                 <!--? divisor -->
-                <hr class="col-6 mx-auto mt-5">
-
-                <!--* contact -->
-                <div class="mt-5">
-                    <!-- tittle -->
-                    <h1 class="text-center user-select-none fw-bolder text-muted">Nada por aqui...</h1>
-
-                    <!-- div-content -->
-                    <div class="container mt-5">
-                        <!-- img -->
-                        <img src="svg/undraw_server_down_s-4-lk.svg" class="img-fluid d-block mx-auto w-75 server-down" alt="Illustration" draggable="false">
-                    </div>
-                </div>
+                <hr class="col-4 mx-auto mt-5 border-3 rounded-pill text-secondary">
             </div>
 
             <div class="col-auto"></div>
