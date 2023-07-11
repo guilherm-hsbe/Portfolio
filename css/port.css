@@ -1,4 +1,4 @@
-/*? Classes Gerais ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+/*? ─── Classes Gerais ─────────────────────────────────────────────────────── */
 * {
     font-family: 'Open Sans', sans-serif !important;
 }
@@ -8,8 +8,8 @@ body {
     background: linear-gradient(180deg, #0E0B13 0%, #171221 100%);
 }
 
-/*? Classes Reutilzáveis ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/** disable-image */
+/*? ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
+/* disable-image */
 .dis-img{
     pointer-events: none;
 }
@@ -18,8 +18,8 @@ body {
     font-size: 1.15rem !important;
 }
 
-/*? Classes Específicas ------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
-/** navbar */
+/*? ─── Classes Específicas ────────────────────────────────────────────────── */
+/* ─── Navbar ─────────────────────────────────────────────────────────────── */
 .navbar {
     background: linear-gradient(90deg, #29262d 0%, #342942 100%) !important;
 }
@@ -33,34 +33,58 @@ body {
     background-color: #a796eb7a !important;
 }
 
-/** presentation */
+/* ─── Presentation ───────────────────────────────────────────────────────── */
 /* image */
-.image-bob{
+.animar-img{
     transition: 1s;
 }
-.image-bob:hover {
+.animar-img:hover {
     transform: translateY(13px);
     z-index: 102;
 }
-.image-bob:active{
+.animar-img:active{
     transform: translateY(-13px);
 }
 
-/* presentation */
-.presentation-div {
+/* apresentacao */
+.div-apresentacao {
     border-radius: 10px;
     background: var(--divs-x, linear-gradient(180deg, rgba(59, 37, 87, 0.75) 0%, rgba(21, 17, 29, 0.00) 100%));
 }
 
-/* aplication-button */
-.aplic-button {
+/* botao-curriculo */
+.botao-curriculo {
     background-color: #ffffff;
     color: #0E0B13;
     border-radius: 2px;
     transition: 0.1s;
 } 
-.aplic-button:hover {
+.botao-curriculo:hover {
     background-color: #0e0b1300;
     color: white;
     border: 1px solid white;
+}
+
+/* ─── Contato ────────────────────────────────────────────────────────────── */
+/* div-contato */
+.div-contato {
+    background: linear-gradient(180deg, #04030600 0%, #322f78 100%)
+}
+
+/* link-contato */
+.link-contato a {
+    text-decoration: none;
+    color: white;
+    transition: 0.2s;
+}
+
+.link-contato a:hover{
+    text-shadow: 0px 5px 20px white;
+}
+
+/* icone-links */
+.icone-links {
+    height: auto;
+    width: 5%;
+    margin-bottom: 2px;
 }
