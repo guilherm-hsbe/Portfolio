@@ -33,7 +33,7 @@ body {
     background-color: #a796eb7a !important;
 }
 
-/* ─── Presentation ───────────────────────────────────────────────────────── */
+/* ─── Apresentação ───────────────────────────────────────────────────────── */
 /* image */
 .animar-img{
     transition: 1s;
@@ -49,7 +49,7 @@ body {
 /* apresentacao */
 .div-apresentacao {
     border-radius: 10px;
-    background: var(--divs-x, linear-gradient(180deg, rgba(59, 37, 87, 0.75) 0%, rgba(21, 17, 29, 0.00) 100%));
+    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
 }
 
 /* botao-curriculo */
@@ -63,6 +63,32 @@ body {
     background-color: #0e0b1300;
     color: white;
     border: 1px solid white;
+}
+
+/* ─── Formacao ───────────────────────────────────────────────────────────── */
+/* formacao */
+.div-formacao {
+    border-radius: 10px;
+    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
+}
+
+/* formacoes */
+.div-formacoes-1 {
+    border-radius: 10px;
+    background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
+}
+
+.div-formacoes-2 {
+    border-radius: 10px;
+    background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
+}
+
+.div-formacoes-1, .div-formacoes-2 {
+    width: 80% !important;
+    margin-right: auto!important;
+    margin-left: auto!important;
+    padding: 1.3rem !important;
+    margin-top: 1.5rem !important;
 }
 
 /* ─── Contato ────────────────────────────────────────────────────────────── */
