@@ -8,6 +8,10 @@ body {
     background: linear-gradient(180deg, #0E0B13 0%, #171221 100%);
 }
 
+b {
+    font-weight: 600;
+}
+
 /*? ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
 /* disable-image */
 .dis-img{
@@ -16,6 +20,11 @@ body {
 
 .fs-5 {
     font-size: 1.15rem !important;
+}
+
+.ef-brilho:hover {
+    text-shadow: #ffffff44 0px 0px 30px;
+    transition: 0.2s;
 }
 
 /*? ─── Classes Específicas ────────────────────────────────────────────────── */
@@ -65,6 +74,32 @@ body {
     border: 1px solid white;
 }
 
+/* ─── Habilidades ────────────────────────────────────────────────────────── */
+/* div-habilidades */
+.div-habilidades {
+    border-radius: 10px;
+    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
+}
+
+/* divs */
+.div-habilidade-esq-cima {
+    background: linear-gradient(315deg, #3b207499 0%, #1d152e00 100%); }
+
+.div-habilidade-dir-cima {
+    background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%); }
+
+.div-habilidade-esq-baix {
+    background: linear-gradient(225deg, #3b207499 0%, #1d152e00 100%); }
+
+.div-habilidade-dir-baix {
+    background: linear-gradient(135deg, #3b207499 0%, #1d152e00 100%); }
+
+.div-habilidade-esq-cima, .div-habilidade-esq-baix, .div-habilidade-dir-baix, .div-habilidade-dir-cima {
+    border-radius: 10px;
+    padding: 1.5rem;
+    margin: 1rem;
+}
+
 /* ─── Formacao ───────────────────────────────────────────────────────────── */
 /* formacao */
 .div-formacao {
@@ -76,11 +111,13 @@ body {
 .div-formacoes-1 {
     border-radius: 10px;
     background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
+    transition: background-color 0.2s;
 }
 
 .div-formacoes-2 {
     border-radius: 10px;
     background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
+    transition: background-color 0.2s;
 }
 
 .div-formacoes-1, .div-formacoes-2 {
@@ -91,10 +128,16 @@ body {
     margin-top: 1.5rem !important;
 }
 
+/* efeito-hover */
+.div-formacoes-1:hover, .div-formacoes-2:hover {
+    background-color: #00000096;
+}
+
 /* ─── Contato ────────────────────────────────────────────────────────────── */
 /* div-contato */
 .div-contato {
-    background: linear-gradient(180deg, #04030600 0%, #322f78 100%)
+    background: linear-gradient(180deg, #17122000 0%, #2D2A61 100%);
+    transition: 0.2s;
 }
 
 /* link-contato */
@@ -105,7 +148,7 @@ body {
 }
 
 .link-contato a:hover{
-    text-shadow: 0px 5px 20px white;
+    text-shadow: 0px 0px 20px #ffffffd0;
 }
 
 /* icone-links */
