@@ -26,7 +26,7 @@
 
 <body>
     <!--! navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark">
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark" hidden>
         <div class="container-fluid">
           <!-- botao-colapsar -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -44,7 +44,7 @@
             </ul>
           </div>
         </div>
-    </nav><!-- /navbar -->
+    </nav>
 
     <!--* página -->
     <div class="container">
@@ -55,12 +55,12 @@
             <div class="col-8 mx-auto">
 
                 <!-- SECTION Apresentacao ────────────────────── -->
-                <div class="mt-5">
+                <div class="mt-5" id="sobre">
                     <!-- img -->
                     <img src="svg/undraw_stars_re_6je7.svg" class="img-fluid mx-auto d-block w-50 h-50 animar-img" alt="Illustration" draggable="false">
 
                     <!-- div-principal-apresentacao -->
-                    <div class="div-apresentacao text-center text-white mt-5 mx-auto" id="sobre" style="width: 66% !important;">
+                    <div class="div-apresentacao text-center text-white mt-5 mx-auto" style="width: 66% !important;">
                         <!-- titulo-apresentacao -->
                         <h1 class="fw-bolder user-select-none pt-4">
                             Sobre Mim
@@ -94,8 +94,62 @@
                 <!--? divisor -->
                 <hr class="col-4 mx-auto mt-5 border-3 rounded-pill text-secondary">
 
+                <!-- SECTION Habilidades ─────────────────────── -->
+                <div class="mt-5" id="habilidades">
+                    <!-- img -->
+                    <img src="/svg/undraw_programming_re_kg9v.svg" class="img-fluid mx-auto d-block" style="height: auto !important; width: 45% !important;" alt="" draggable="false">
+
+                    <!-- div-principal-habilidades -->
+                    <div class="div-habilidades text-center text-white mx-auto" style="width: 50% !important;">
+                        <!-- titulo-habilidades -->
+                        <h2 class="fw-bolder user-select-none pt-4 mt-4">
+                            Minhas habilidades
+                        </h2>
+
+                        <!-- texto-habilidades -->
+                        <p>Minhas principais habilidades e qualificações.</p>
+                    </div>
+
+                    <!-- div-habilidades-linha-1 -->
+                    <div class="row mt-5 text-white text-center">
+                        <div class="col div-habilidade-esq-cima">
+                            <img src="/svg/icons/laptop.svg" alt="" class="img-fluid mx-auto" style="height: auto !important; width: 45% !important;" draggable="false">
+                            <h3 class="mt-4">Web Design</h3>
+                            <p>O <b>Web Design</b> é um dos tópicos pelo qual mais me interesso, 
+                                e que me inspirou a desenvolver este portfólio.</p>
+                                <p>Utilizo ferramentas como o <b>Figma</b> para projetar designs de telas para web.</p>
+                        </div>
+
+                        <div class="col div-habilidade-dir-cima">
+                            <img src="/svg/icons/cpu-fill.svg" alt="" class="img-fluid mx-auto" style="height: auto !important; width: 45% !important;" draggable="false">
+                            <h3 class="mt-4">Programação</h3>
+                            <p>Durante minha graduação em <b>Análise e Desenvolvimento de Sistemas</b>, 
+                                desenvolvi habilidades em desenvolvimento como:</p>
+                            <b>Python, C#, PHP, JavaScript, React, Laravel, SQL, entre outros.</b>
+                        </div>
+                    </div>
+
+                    <!-- div-habilidades-linha-2 -->
+                    <div class="row text-white text-center">
+                        <div class="col div-habilidade-esq-baix">
+                            <img src="/svg/icons/aspect-ratio.svg" alt="" class="img-fluid mx-auto" style="height: auto !important; width: 45% !important;" draggable="false">
+                            <h3 class="mt-4">Teste</h3>
+                            <p>Texto teste.</p>
+                        </div>
+
+                        <div class="col div-habilidade-dir-baix">
+                            <img src="/svg/icons/aspect-ratio.svg" alt="" class="img-fluid mx-auto" style="height: auto !important; width: 45% !important;" draggable="false">
+                            <h3 class="mt-4">Teste</h3>
+                            <p>Texto teste.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!--? divisor -->
+                <hr class="col-4 mx-auto mt-5 border-3 rounded-pill text-secondary">
+
                 <!-- SECTION Formação ────────────────────────── -->
-                <div class="mt-5">
+                <div class="mt-5" id="formacao">
                     <!-- img -->
                     <img src="/svg/undraw_astronaut_re_8c33.svg" class="img-fluid mx-auto d-block" style="height: auto !important; width: 35% !important;" alt="" draggable="false">
 
@@ -114,7 +168,7 @@
                             <h4 class="fw-bold">FATEC, P. Prudente - Graduação Incompleta</h4>
                             <p>DE 2020 - ATUAL (6º Semestre)</p>
 
-                            <p><span class="fw-semibold">Análise e Desenvolvimento de Sistemas (ADS) - 6 Semestres.</span>
+                            <p><b>Análise e Desenvolvimento de Sistemas (ADS) - 6 Semestres.</b>
                             <br>
                             Desenvolver e analisar sistemas de informação.</p>
                         </div>
@@ -124,7 +178,7 @@
                             <h4 class="fw-bold">CISCO, Remoto - Certificado</h4>
                             <p>FEVEREIRO DE 2020 – MAIO DE 2021</p>
 
-                            <p>Curso IT Essentials. Gerenciamento e execução de atividades 
+                            <p><b>Curso IT Essentials.</b> Gerenciamento e execução de atividades 
                                 voltadas ao TI, tais como gerenciamento de computadores e redes.
                             </p>
                         </div>
