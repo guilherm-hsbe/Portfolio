@@ -82,6 +82,12 @@ b {
     background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
 }
 
+/* icone-habilidade */
+.icon-habilidade {
+    height: auto !important;
+    width: 25% !important;
+}
+
 /* divs */
 .div-habilidade-esq-cima {
     background: linear-gradient(315deg, #3b207499 0%, #1d152e00 100%); }
@@ -140,9 +146,24 @@ b {
     background-color: #00000096;
 }
 
+/* botões-formacao */
+.botao-formacao {
+    background-color: #00000000;
+    color: white;
+    border-color: #ffffff48;
+    border-radius: 6px;
+    transition: 0.3s;
+    font-weight: 500;
+    height: 40px;
+}
+.botao-formacao:hover {
+    border-color: white;
+}
+
 /* ─── Contato ────────────────────────────────────────────────────────────── */
 /* div-contato */
 .div-contato {
+    margin-top: 5rem;
     background: linear-gradient(180deg, #17122000 0%, #2D2A61 100%);
     transition: 0.2s;
 }
