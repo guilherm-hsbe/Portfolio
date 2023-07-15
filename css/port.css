@@ -1,187 +1,205 @@
 /*? ─── Classes Gerais ─────────────────────────────────────────────────────── */
 * {
-    font-family: 'Open Sans', sans-serif !important;
+  font-family: "Open Sans", sans-serif !important;
 }
 
 body {
-    margin: 0;
-    background: linear-gradient(180deg, #0E0B13 0%, #171221 100%);
+  margin: 0;
+  background: linear-gradient(180deg, #0e0b13 0%, #171221 100%);
 }
 
 b {
-    font-weight: 600;
+  font-weight: 600;
 }
 
 /*? ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
 /* disable-image */
-.dis-img{
-    pointer-events: none;
+.dis-img {
+  pointer-events: none;
 }
 
 .fs-5 {
-    font-size: 1.15rem !important;
+  font-size: 1.15rem !important;
 }
 
 .ef-brilho:hover {
-    text-shadow: #ffffff44 0px 0px 30px;
-    transition: 0.2s;
+  text-shadow: #ffffff44 0px 0px 30px;
+  transition: 0.2s;
 }
 
 /*? ─── Classes Específicas ────────────────────────────────────────────────── */
 /* ─── Navbar ─────────────────────────────────────────────────────────────── */
 .navbar {
-    background: linear-gradient(90deg, #29262d 0%, #342942 100%) !important;
+  background: linear-gradient(90deg, #29262d 0%, #342942 100%) !important;
 }
 .navbar a {
-    background-color: #8274BA42 !important;
-    margin: 0 0.5vw;
-    border-radius: 15px;
+  background-color: #8274ba42 !important;
+  margin: 0 0.5vw;
+  border-radius: 15px;
 }
 .navbar a:hover {
-    color: white !important;
-    background-color: #a796eb7a !important;
+  color: white !important;
+  background-color: #a796eb7a !important;
 }
 
 /* ─── Apresentação ───────────────────────────────────────────────────────── */
 /* image */
-.animar-img{
-    transition: 1s;
+.animar-img {
+  transition: 1s;
 }
 .animar-img:hover {
-    transform: translateY(13px);
-    z-index: 102;
+  transform: translateY(13px);
+  z-index: 102;
 }
-.animar-img:active{
-    transform: translateY(-13px);
+.animar-img:active {
+  transform: translateY(-13px);
 }
 
 /* apresentacao */
 .div-apresentacao {
-    border-radius: 10px;
-    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
+  border-radius: 10px;
+  background: var(
+    --divs-x,
+    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
+  );
 }
 
 /* botao-curriculo */
 .botao-curriculo {
-    background-color: #ffffff;
-    color: #0E0B13;
-    border-radius: 2px;
-    transition: 0.3s;
-    width: 150px;
+  background-color: #ffffff;
+  color: #0e0b13;
+  border-radius: 2px;
+  transition: 0.3s;
+  width: 150px;
 }
 .botao-curriculo:hover {
-    color: #0E0B13;
-    background-color: #ffffff;
-    box-shadow: 0px 5px 0px #ffffffc0, 0px 15px 40px #ffffff28;
+  color: #0e0b13;
+  background-color: #ffffff;
+  box-shadow: 0px 5px 0px #ffffffc0, 0px 15px 40px #ffffff28;
 }
 
 /* ─── Habilidades ────────────────────────────────────────────────────────── */
 /* div-habilidades */
 .div-habilidades {
-    border-radius: 10px;
-    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
+  border-radius: 10px;
+  background: var(
+    --divs-x,
+    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
+  );
 }
 
 /* icone-habilidade */
 .icon-habilidade {
-    height: auto !important;
-    width: 25% !important;
+  height: auto !important;
+  width: 25% !important;
 }
 
 /* divs */
 .div-habilidade-esq-cima {
-    background: linear-gradient(315deg, #3b207499 0%, #1d152e00 100%); }
+  background: linear-gradient(315deg, #3b207499 0%, #1d152e00 100%);
+}
 
 .div-habilidade-dir-cima {
-    background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%); }
+  background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
+}
 
 .div-habilidade-esq-baix {
-    background: linear-gradient(225deg, #3b207499 0%, #1d152e00 100%); }
+  background: linear-gradient(225deg, #3b207499 0%, #1d152e00 100%);
+}
 
 .div-habilidade-dir-baix {
-    background: linear-gradient(135deg, #3b207499 0%, #1d152e00 100%); }
+  background: linear-gradient(135deg, #3b207499 0%, #1d152e00 100%);
+}
 
-.div-habilidade-esq-cima, .div-habilidade-esq-baix, .div-habilidade-dir-baix, .div-habilidade-dir-cima {
-    border-radius: 10px;
-    padding: 1.5rem;
-    margin: 1rem;
+.div-habilidade-esq-cima,
+.div-habilidade-esq-baix,
+.div-habilidade-dir-baix,
+.div-habilidade-dir-cima {
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 1rem;
 }
 
 /* ─── Formacao ───────────────────────────────────────────────────────────── */
 /* formacao */
 .div-formacao {
-    border-radius: 10px;
-    background: var(--divs-x, linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%));
+  border-radius: 10px;
+  background: var(
+    --divs-x,
+    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
+  );
 }
 
 /* formacoes */
 .div-formacoes-1 {
-    border-radius: 10px;
-    background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
-    transition: 0.2s;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
+  transition: 0.2s;
 }
 .div-formacoes-1:hover {
-    box-shadow: #291755 5px 5px 0px, #221246 10px 10px 0px;
+  box-shadow: #291755 5px 5px 0px, #221246 10px 10px 0px;
 }
 
 .div-formacoes-2 {
-    border-radius: 10px;
-    background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
-    transition: 0.2s;
+  border-radius: 10px;
+  background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
+  transition: 0.2s;
 }
 .div-formacoes-2:hover {
-    box-shadow: #291755 -5px 5px 0px, #221246 -10px 10px 0px;
+  box-shadow: #291755 -5px 5px 0px, #221246 -10px 10px 0px;
 }
 
-.div-formacoes-1, .div-formacoes-2 {
-    width: 80% !important;
-    margin-right: auto!important;
-    margin-left: auto!important;
-    padding: 1.3rem !important;
-    margin-top: 1.5rem !important;
+.div-formacoes-1,
+.div-formacoes-2 {
+  width: 80% !important;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  padding: 1.3rem !important;
+  margin-top: 1.5rem !important;
 }
 
 /* efeito-hover */
-.div-formacoes-1:hover, .div-formacoes-2:hover {
-    background-color: #00000096;
+.div-formacoes-1:hover,
+.div-formacoes-2:hover {
+  background-color: #00000096;
 }
 
 /* botões-formacao */
 .botao-formacao {
-    background-color: #00000000;
-    color: white;
-    border-color: #ffffff48;
-    border-radius: 6px;
-    transition: 0.3s;
-    font-weight: 500;
-    height: 40px;
+  background-color: #00000000;
+  color: white;
+  border-color: #ffffff48;
+  border-radius: 6px;
+  transition: 0.3s;
+  font-weight: 500;
+  height: 40px;
 }
 .botao-formacao:hover {
-    border-color: white;
+  border-color: white;
 }
 
 /* ─── Contato ────────────────────────────────────────────────────────────── */
 /* div-contato */
 .div-contato {
-    margin-top: 5rem;
-    background: linear-gradient(180deg, #17122000 0%, #2D2A61 100%);
-    transition: 0.2s;
+  margin-top: 5rem;
+  background: linear-gradient(180deg, #17122000 0%, #2d2a61 100%);
+  transition: 0.2s;
 }
 
 /* link-contato */
 .link-contato a {
-    text-decoration: none;
-    color: white;
-    transition: 0.2s;
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
 }
 
-.link-contato a:hover{
-    text-shadow: 0px 0px 20px #ffffffd0;
+.link-contato a:hover {
+  text-shadow: 0px 0px 20px #ffffffd0;
 }
 
 /* icone-links */
 .icone-links {
-    height: auto;
-    width: 5%;
-    margin-bottom: 2px;
+  height: auto;
+  width: 5%;
+  margin-bottom: 2px;
 }
