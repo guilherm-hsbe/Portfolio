@@ -18,8 +18,12 @@ b {
   pointer-events: none;
 }
 
+.fs-4 {
+  font-size: 1.10rem !important;
+}
+
 .fs-5 {
-  font-size: 1.15rem !important;
+  font-size: 1.20rem !important;
 }
 
 .ef-brilho:hover {
@@ -151,7 +155,7 @@ b {
 
 .div-formacoes-1,
 .div-formacoes-2 {
-  width: 80% !important;
+  width: 84% !important;
   margin-right: auto !important;
   margin-left: auto !important;
   padding: 1.3rem !important;
