@@ -84,7 +84,7 @@ b {
 .botao-curriculo:hover {
   color: #0e0b13;
   background-color: #ffffff;
-  box-shadow: 0px 5px 0px #ffffffc0, 0px 15px 40px #ffffff28;
+  box-shadow: 0px 15px 40px #ffffff28;
 }
 
 /* ─── Projetos ───────────────────────────────────────────────────────────── */
@@ -195,12 +195,12 @@ b {
   transition: 0.2s;
 }
 
-.div-habilidade-esq-cima:hover,
+/* .div-habilidade-esq-cima:hover,
 .div-habilidade-esq-baix:hover,
 .div-habilidade-dir-baix:hover,
 .div-habilidade-dir-cima:hover {
   background-color: #00000096;
-}
+} */
 
 /* ─── Formacao ───────────────────────────────────────────────────────────── */
 /* div-formacao */
@@ -218,18 +218,18 @@ b {
   background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
   transition: 0.2s;
 }
-.div-formacoes-1:hover {
+/* .div-formacoes-1:hover {
   box-shadow: #291755 5px 5px 0px, #221246 10px 10px 0px;
-}
+} */
 
 .div-formacoes-2 {
   border-radius: 10px;
   background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
   transition: 0.2s;
 }
-.div-formacoes-2:hover {
+/* .div-formacoes-2:hover {
   box-shadow: #291755 -5px 5px 0px, #221246 -10px 10px 0px;
-}
+} */
 
 .div-formacoes-1,
 .div-formacoes-2 {
@@ -240,10 +240,10 @@ b {
   margin-top: 1.5rem !important;
 }
 
-.div-formacoes-1:hover,
+/* .div-formacoes-1:hover,
 .div-formacoes-2:hover {
   background-color: #00000096;
-}
+} */
 
 /* botões-formacao */
 .botao-formacao {
