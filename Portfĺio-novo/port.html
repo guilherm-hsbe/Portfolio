@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Portfólio</title>
+
+    <!-- Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style2.css">
+</head>
+
+<body>
+    <div class="container-principal">
+        <div class="linha" style="justify-content: center; height: 800px;">
+            <div class="bloco anim">
+
+                <style>
+                    .anim {
+                        animation: colorAnimation 5s linear infinite alternate;
+                    }
+
+                    @keyframes colorAnimation {
+                        0% {
+                        background-color: #00002e; /* Cor inicial */
+                    }
+                    100% {
+                        background-color: #090933; /* Cor alternativa */
+                    }
+                    }
+                </style>
+            </div>
+
+            <div class="bloco" style="background-color: black; flex: 1 0 25%">
+                <h1 style="color: aliceblue;">
+                    Olá, seja bem vindo(a)
+                    <img src="imgs/alien.gif" alt="Emoji" draggable="false" class="home-emoji-alien">
+                </h1>
+
+                <style>
+                    .teste:hover {
+                        color: blue !important;
+                    }
+                </style>
+
+                <h1 class="teste" style="color: white; font-size: 80px;">Guilherme Henrique</h1>
+
+                <p class="p-1">
+                    Oi, sou o <b>Guilherme Henrique</b>, recém formado da faculdade de <b>Análise e Desenvolvimento de Sistemas</b>.
+                </p>
+
+                <p class="p-1">
+                    Tenho um profundo interesse em tecnologias e concentro meus esforços no <b>Full Stack Development</b> e <b>Web Design</b>.
+                </p>
+
+                <p class="p-1">
+                    Meu objetivo é utilizar minhas habilidades e conhecimentos para criar <b>soluções tecnológicas</b>
+                    eficazes para problemas do mundo real.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
