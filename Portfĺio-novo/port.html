@@ -14,6 +14,11 @@
 
     <!-- CSS -->
     <link rel="stylesheet" href="style2.css">
+
+    <!--
+        TODO 1 - Separar as habilidades por seções. Uma seção para back, para front e ferramentas.
+        TODO 2 - Considerar trocar os ícones das habilidades.
+    -->
 </head>
 
 <body>
@@ -22,7 +27,7 @@
             <div class="bloco anim">
 
                 <style>
-                    .anim {
+                    .anim, .separador-1 {
                         animation: colorAnimation 5s linear infinite alternate;
                     }
 
@@ -49,7 +54,7 @@
                     }
                 </style>
 
-                <h1 class="teste" style="color: white; font-size: 80px;">Guilherme Henrique</h1>
+                <h1 class="teste" style="color: white; font-size: 80px; width: fit-content;">Guilherme Henrique</h1>
 
                 <p class="p-1">
                     Oi, sou o <b>Guilherme Henrique</b>, recém formado da faculdade de <b>Análise e Desenvolvimento de Sistemas</b>.
@@ -63,6 +68,110 @@
                     Meu objetivo é utilizar minhas habilidades e conhecimentos para criar <b>soluções tecnológicas</b>
                     eficazes para problemas do mundo real.
                 </p>
+            </div>
+        </div>
+
+        <style>
+            .separador-1 {
+                color: #00000000;
+                background-color: #090933;
+                margin: 0;
+                padding: 1rem;
+            }
+
+            .cursor {
+                width: 40px;
+                height: 10px;
+                background-color: #000000;
+                animation: blink 1s infinite;
+                margin-top: 3.1rem;
+                margin-left: 0.5rem;
+            }
+
+            @keyframes blink {
+                0%, 50% {
+                    opacity: 1;
+                }
+                100% {
+                    opacity: 0;
+                }
+            }
+        </style>
+
+        <hr class="separador-1">
+
+        <div class="linha" style="background-color:     ;">
+            <div class="bloco">
+                <h1 class="linha" style="text-align: start; color: black; font-size: 60px;">
+                    Habilidades
+                    <div class="cursor"></div>
+                </h1>
+                <p class="p-1" style="color: black; width: 80%;">
+                    Minhas competências técnicas abrangem <b>front-end</b> e <b>back-end</b>, com experiência tanto <b>acadêmica</b> quanto <b>profissional</b> na
+                    utilização de determinadas ferramentas.
+                </p>
+            </div>
+        </div>
+
+        <style>
+            .bloco-1 {
+                justify-content: center;
+                display: block;
+                text-align: center;
+                background-color: #f5f5f8;
+                border-radius: 0.5rem;
+                margin: 0 3rem;
+            }
+            .bloco-1 h2, .bloco-1 h3 {
+                font-weight: 400;
+                line-height: 1.3rem;
+            }
+            .bloco-1 h3 {
+                text-align: justify;
+                text-justify: inter-word;
+                text-indent: 5rem;
+                margin-top: 2rem;
+            }
+        </style>
+
+        <div class="linha" style="background-color: white; padding: 1rem;">
+            <div class="bloco bloco-1">
+                <img src="imgs/icons8-pro-display-xdr-96.png" alt="" style="width: 130px;">
+                <h1>Front End</h1>
+
+                <h2>HTML</h2>
+                <h2>CSS</h2>
+                <h2>JavaScript</h2>
+                <h2>Bootstrap</h2>
+
+                <h3>
+                    Et quam consequatur eum molestiae obcaecati ex optio distinctio. Et eveniet dolores et maiores labore est omnis vitae
+                    sit autem accusamus qui doloribus nostrum.
+
+                </h3>
+            </div>
+
+            <div class="bloco bloco-1">
+                <img src="imgs/terminal_25627.png" alt="" style="width: 110px;">
+                <h1>Back End</h1>
+
+                <h2>ASPNET WebForms</h2>
+                <h2>Laravel</h2>
+                <h2>C#</h2>
+                <h2>Python</h2>
+                <h2>PHP</h2>
+                <h2>SQL</h2>
+                <h2>MySQL</h2>
+            </div>
+
+            <div class="bloco bloco-1">
+                <img src="imgs/icons8-ferramenta-96.png" alt="" style="width: 90px;">
+                <h1>Ferramentas</h1>
+
+                <h2>VS Code</h2>
+                <h2>GitHub</h2>
+                <h2>Figma</h2>
+                <h2></h2>
             </div>
         </div>
     </div>
