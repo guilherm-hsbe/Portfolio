@@ -12,41 +12,20 @@
     <!-- CSS -->
     <link rel="stylesheet" href="css/port.css">
 
-    <!-- Bootstrap Offline -->
-    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/bootstrap-5.3.2-dist/">
-
-    <!-- Google Fonts -->
+    <!-- Fonte -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <!-- Open Sans --> <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <!-- Lato --> <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700;600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="]https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Icones -->
+    <script src="https://kit.fontawesome.com/f8b51f3b83.js" crossorigin="anonymous"></script>
 
     <!-- Ícone -->
     <link rel="shortcut icon" href="svg/undraw_pic_profile_re_7g2h.svg"/>
 </head>
 
 <body>
-    <!--! navbar -->
-    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" data-bs-theme="dark" hidden>
-        <div class="container-fluid">
-          <!-- botao-colapsar -->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-
-          <!-- navbar-conteudo -->
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav mx-auto" >
-                <li class="nav-item"><a class="nav-link active user-select-none" aria-current="page" href="#sobre" draggable="false">Sobre Mim</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none" href="#projetos" draggable="false">Projetos</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none" href="#habilidades" draggable="false">Habilidades</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none" href="#formacao" draggable="false">Formação</a></li>
-                <li class="nav-item"><a class="nav-link user-select-none" href="#contato" draggable="false">Contato</a></li>
-            </ul>
-          </div>
-        </div>
-    </nav>
-
     <!--* página -->
     <div class="container">
         <div class="row">
@@ -55,7 +34,7 @@
             <!--* body -->
             <div class="col-8 mx-auto">
 
-                <!-- SECTION Apresentacao ────────────────────── -->
+                <!--! Apresentacao ────────────────────── -->
                 <div class="mt-5" id="sobre">
                     <!-- img -->
                     <img src="svg/undraw_stars_re_6je7.svg" class="img-fluid mx-auto d-block w-50 h-50 animar-img" alt="Illustration" draggable="false">
@@ -64,23 +43,25 @@
                     <div class="div-apresentacao text-center text-white mt-5 mx-auto" style="width: 66% !important;">
                         <!-- titulo-apresentacao -->
                         <h1 class="fw-bolder user-select-none pt-4">
-                            Sobre Mim
+                            Sobre mim
                         </h1>
 
                         <div class="col-10 mx-auto fs-5">
                             <!-- texto-apresentacao -->
                             <p class="mt-4 ">
-                                Olá! Meu nome é <b>Guilherme Henrique</b> e sou estudante de <b>Análise e Desenvolvimento de Sistemas</b>.
+                                Oi, sou o <b>Guilherme Henrique</b>, recém formado da faculdade de <b>Análise e Desenvolvimento de Sistemas</b>.
                             </p>
 
                             <!-- texto-apresentacao 2-->
                             <p class="mt-4" style="color:#ffffffd8">
-                                Tenho um forte interesse em tecnologias e minhas principais áreas de interesse incluem <b>desenvolvimento web, realidade virtual e informática musical</b>.
+                                Tenho um profundo interesse em tecnologias e concentro meus esforços no <b>Full Stack Development</b> e <b>Web
+                                    Design</b>.
                             </p>
 
                             <!-- texto-apresentacao 3-->
                             <p class="mt-4" style="color:#ffffffd9">
-                                Meu objetivo é utilizar minhas habilidades e conhecimentos para <b>criar soluções tecnológicas</b> eficazes para problemas do mundo real.
+                                Meu objetivo é utilizar minhas habilidades e conhecimentos para criar <b>soluções tecnológicas</b>
+                                eficazes para problemas do mundo real.
                             </p>
                         </div>
 
@@ -95,7 +76,7 @@
                 <!--? divisor -->
                 <hr class="divisor">
 
-                <!-- SECTION Projetos ────────────────────────── -->
+                <!--! Projetos ────────────────────────── -->
                 <div id="projetos">
                     <!-- img -->
                     <img src="svg/undraw_my_app_re_gxtj.svg" class="img-fluid mx-auto d-block" style="height: auto !important; width: 40% !important;" alt="" draggable="false">
@@ -104,11 +85,12 @@
                         <!-- título-projetos -->
                         <h2 class="fw-bolder user-select-none pt-4 mt-4">
                             Meus projetos
+                            <i class="fa-solid fa-code-branch" style="color: #ffffff;"></i>
                         </h2>
 
                         <!-- texto-projetos -->
                         <p class="fs-4">
-                            Alguns dos meus principais projetos de <b>programação</b>.
+                            Alguns dos meus principais projetos como <b>desenvolvedor</b>.
                         </p>
 
                         <!-- botao-repositorios -->
@@ -146,13 +128,13 @@
                                     <a href="https://github.com/guilherm-hsbe/Laboratorio-Engenharia-de-Software" 
                                     target="_blank" type="button" draggable="false" class="btn botao-projeto mt-auto me-2">
                                         GitHub
-                                        <img src="svg/icons/github.svg" class="icone-projetos"></span>
+                                        <i class="fa-brands fa-github-alt" style="color: #ffffff;"></i>
                                     </a>
 
                                     <a href="https://guilherm-hsbe.github.io/Laboratorio-Engenharia-de-Software/" 
                                     target="_blank" type="button" draggable="false" class="btn botao-projeto mt-auto">
                                         Página
-                                        <img src="svg/icons/arrow-up-right.svg" class="icone-projetos"></span>
+                                        <i class="fa-solid fa-square-up-right" style="color: #ffffff;"></i>
                                     </a>
                                 </div>
                             </div>
@@ -194,7 +176,7 @@
                 <!--? divisor -->
                 <hr class="divisor">
                 
-                <!-- SECTION Habilidades ─────────────────────── -->
+                <!--! Habilidades ─────────────────────── -->
                 <div id="habilidades">
                     <!-- img -->
                     <img src="svg/undraw_programming_re_kg9v.svg" class="img-fluid mx-auto d-block" style="height: auto !important; width: 40% !important;" alt="" draggable="false">
@@ -204,6 +186,7 @@
                         <!-- titulo-habilidades -->
                         <h2 class="fw-bolder user-select-none pt-4 mt-4">
                             Minhas habilidades
+                            <i class="fa-solid fa-bolt" style="color: #ffffff;"></i>
                         </h2>
 
                         <!-- texto-habilidades -->
@@ -248,7 +231,7 @@
                 <!--? divisor -->
                 <hr class="divisor">
 
-                <!-- SECTION Formação ────────────────────────── -->
+                <!--! Formação ────────────────────────── -->
                 <div id="formacao">
                     <!-- img -->
                     <img src="svg/undraw_astronaut_re_8c33.svg" class="img-fluid mx-auto d-block" style="height: auto !important; width: 35% !important;" alt="" draggable="false">
@@ -258,6 +241,7 @@
                         <!-- titulo-formacao -->
                         <h2 class="fw-bolder user-select-none pt-4">
                             Formações e Certificados
+                            <i class="fa-solid fa-graduation-cap" style="color: #ffffff;"></i>
                         </h2>
                     </div>
 
@@ -265,7 +249,7 @@
                     <div class="mt-5 text-white mx-auto text-left">
                         <!-- FATEC -->
                         <div class="div-formacoes-1">
-                            <h4 class="fw-bold">FATEC, P. Prudente - Graduação Incompleta</h4>
+                            <h4 class="fw-bold">FATEC, P. Prudente - Graduação Completa</h4>
                             <p>DE 2020 - ATUAL (6º Semestre)</p>
 
                             <div class="d-flex justify-content-between fs-4">
@@ -318,7 +302,7 @@
         </div>
     </div>
 
-    <!-- SECTION Contato ──────────────────────────────────────────── -->
+    <!--! Contato ──────────────────────────────────────────── -->
     <div class="div-contato text-left text-white mx-auto" id="contato">
         <!-- div-principal-contato -->
         <div class="row w-50 mx-auto position-relative">
