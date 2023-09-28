@@ -15,6 +15,7 @@ b { font-weight: 600; }
 /** fontes */
 .fs-4 { font-size: 1.10rem !important; }
 .fs-5 { font-size: 1.20rem !important; }
+.fs-6 { font-size: 16px; }
 
 /** divisor */
 .divisor {
@@ -230,6 +231,7 @@ b { font-weight: 600; }
 /** barra-progresso */
 .progress {
   background-color: #c5c5c5;
+  height: 2px;
 }
 .progress-bar {
   background-color: #6a28bf;
