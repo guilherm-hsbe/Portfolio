@@ -224,3 +224,13 @@ b { font-weight: 600; }
   background: linear-gradient(180deg, #17122000 0%, #2d2a61 100%);
   transition: 0.2s;
 }
+
+/*? ─── Outros ─────────────────────────────────────────────────────────────── */
+
+/** barra-progresso */
+.progress {
+  background-color: #c5c5c5;
+}
+.progress-bar {
+  background-color: #6a28bf;
+}
