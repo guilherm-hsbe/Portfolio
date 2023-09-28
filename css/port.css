@@ -1,4 +1,4 @@
-/*? ─── Classes Gerais ─────────────────────────────────────────────────────── */
+/*! ─── Classes Gerais ─────────────────────────────────────────────────────── */
 * { font-family: 'Barlow', sans-serif; }
 
 body {
@@ -6,282 +6,204 @@ body {
   background: linear-gradient(180deg, #0e0b13 0%, #171221 100%);
 }
 
-b {
-  font-weight: 600;
-}
+b { font-weight: 600; }
 
-/*? ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
-/* disable-image */
-.dis-img {
-  pointer-events: none;
-}
+/*! ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
+/** disativar-imagem */
+.dis-img { pointer-events: none; }
 
-.fs-4 {
-  font-size: 1.10rem !important;
-}
+/** fontes */
+.fs-4 { font-size: 1.10rem !important; }
+.fs-5 { font-size: 1.20rem !important; }
 
-.fs-5 {
-  font-size: 1.20rem !important;
-}
-
-.ef-brilho:hover {
-  text-shadow: #ffffff44 0px 0px 30px;
-  transition: 0.2s;
-}
-
+/** divisor */
 .divisor {
   margin: 5rem auto !important;
-  color: #00000000;
+  color: transparent;
 }
 
-/*? ─── Classes Específicas ────────────────────────────────────────────────── */
-/* ─── Navbar ─────────────────────────────────────────────────────────────── */
-.navbar {
-  background: linear-gradient(90deg, #29262d 0%, #342942 100%) !important;
-}
-.navbar a {
-  background-color: #8274ba42 !important;
-  margin: 0 0.5vw;
-  border-radius: 15px;
-}
-.navbar a:hover {
-  color: white !important;
-  background-color: #a796eb7a !important;
-}
+/*! ─── Componentes ──────────────────────────────────────────────── */
 
-/* ─── Apresentação ───────────────────────────────────────────────────────── */
-/* image */
-.animar-img {
-  transition: 1s;
-}
-.animar-img:hover {
-  transform: translateY(13px);
-  z-index: 102;
-}
-.animar-img:active {
-  transform: translateY(-13px);
-}
+/*? ─── Botões ─────────────────────────────────────────────────────────────── */
 
-/* apresentacao */
-.div-apresentacao {
-  border-radius: 0.3rem;
-  background: var(
-    --divs-x,
-    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
-  );
-}
-
-/* botao-curriculo */
-.botao-curriculo {
+/** botão-1 */
+.btn-1 {
   background-color: #ffffff;
   color: #0e0b13;
-  border-radius: 0.1rem;
+  border-radius: 0.7rem;
   transition: 0.3s;
-  width: 150px;
 }
-.botao-curriculo:hover {
+.btn-1:hover { /*hover*/
   color: #0e0b13;
   background-color: #ffffff;
   box-shadow: 0px 15px 40px #ffffff28;
 }
-.botao-curriculo:active {
+.btn-1:active { /*active*/
   transform: translateY(4px);
 }
 
-/* ─── Projetos ───────────────────────────────────────────────────────────── */
-/* div-principal-projetos */
-.div-principal-projetos {
-  border-radius: 0.3rem;
-  background: var(
-    --divs-x,
-    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
-  );
-}
-
-/* botao-repositorios */
-.botao-repositorios {
-  background-color: #ffffff;
-  color: #0e0b13;
-  border-radius: 0.1rem;
-  transition: 0.3s;
-  width: 175px;
-}
-
-.botao-repositorios:hover {
-  color: #0e0b13;
-  background-color: #ffffff;
-  box-shadow: 0px 15px 40px #ffffff28;
-}
-
-/* divs-projetos */
-.div-projeto-1 {
-  border-radius: 0.3rem;
-  background: linear-gradient(90deg, #3B2557 0%, #111 100%);
-  border-right: 2px solid #ffffff4a;
-}
-
-.div-projeto-2 {
-  border-radius: 0.3rem;
-  background: linear-gradient(90deg, #111 0%, #251934 100%);
-  border-left: 2px solid #ffffff4a;
-}
-
-/* imagens-projetos */
-.img-projeto {
-  box-shadow: 0px 5px 20px #00000099;
-}
-
-/* botao-projeto */
-.botao-projeto {
-  background-color: #00000000;
+/** botão-2 */
+.btn-2 {
+  background-color: transparent;
   color: white;
   border-color: #ffffff48;
-  border-radius: 0.2rem;
+  border-radius: 0.5rem;
   transition: 0.1s;
   font-weight: 500;
   height: 40px;
 }
-
-.botao-projeto:hover {
+.btn-2:hover { /*hover*/
   border-color: white;
 }
 
-/* icone-projetos */
-.icone-projetos{
-  height: auto;
-  width: 21%;
-  margin-bottom: 2px;
+/*? ─── Imagens ─────────────────────────────────────────────────────────────── */
+
+/** imagem-animada-apresentação */
+.img-anim {
+  transition: 1s;
+}
+.img-anim:hover { /*hover*/
+  transform: translateY(13px);
+  z-index: 102;
+}
+.img-anim:active { /*active*/
+  transform: translateY(-13px);
 }
 
-/* ─── Habilidades ────────────────────────────────────────────────────────── */
-/* div-habilidades */
-.div-habilidades {
-  border-radius: 0.3rem;
-  background: var(
-    --divs-x,
-    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
-  );
+/** imagens-projetos */
+.img-projeto {
+  box-shadow: 0px 5px 20px #00000099;
 }
 
-/* icone-habilidade */
-.icon-habilidade {
+/** imagens-habilidades */
+.img-habilidade {
   height: auto !important;
   width: 25% !important;
 }
 
-/* divs-habilidades */
+/*? ─── Links ─────────────────────────────────────────────────────────────── */
+
+/** link-1 */
+.link-1 {
+  text-decoration: none;
+  color: white;
+  transition: 0.2s;
+}
+.link-1:hover { /*hover*/
+  text-decoration: underline;
+}
+
+/*? ─── DIVs ─────────────────────────────────────────────────────────────── */
+
+/* ─── Apresentação ───────────────────────────── */
+
+/** div-principal-apresentacao */
+.div-main-apresentacao {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
+}
+
+/* ─── Projetos ───────────────────────────── */
+
+/** div-principal-projetos */
+.div-main-projetos {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
+}
+
+/** divs-projetos */
+/* projeto-1 */
+.div-projeto-1 {
+  background: linear-gradient(90deg, #3B2557 0%, #111 100%);
+  border-right: 2px solid #ffffff4a;
+}
+
+/* projeto-2 */
+.div-projeto-2 {
+  background: linear-gradient(90deg, #111 0%, #251934 100%);
+  border-left: 2px solid #ffffff4a;
+}
+
+/* projeto-geral */
+.div-projeto-1,
+.div-projeto-2 {
+  border-radius: 0.8rem;
+}
+
+/* ─── Habilidades ───────────────────────────── */
+
+/** div-principal-habilidades */
+.div-main-habilidades {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
+}
+
+/** divs-habilidades */
+/* habilidade-1 */
 .div-habilidade-esq-cima {
   background: linear-gradient(315deg, #3b207499 0%, #1d152e00 100%);
 }
 
+/* habilidade-2 */
 .div-habilidade-dir-cima {
   background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
 }
 
+/* habilidade-3 */
 .div-habilidade-esq-baix {
   background: linear-gradient(225deg, #3b207499 0%, #1d152e00 100%);
 }
 
+/* habilidade-4 */
 .div-habilidade-dir-baix {
   background: linear-gradient(135deg, #3b207499 0%, #1d152e00 100%);
 }
 
+/* habilidade-geral */
 .div-habilidade-esq-cima,
 .div-habilidade-esq-baix,
 .div-habilidade-dir-baix,
 .div-habilidade-dir-cima {
-  border-radius: 0.3rem;
+  border-radius: 0.8rem;
   padding: 1.5rem;
   margin: 1rem;
   transition: 0.2s;
 }
 
-/* .div-habilidade-esq-cima:hover,
-.div-habilidade-esq-baix:hover,
-.div-habilidade-dir-baix:hover,
-.div-habilidade-dir-cima:hover {
-  background-color: #00000096;
-} */
+/* ─── Formação ───────────────────────────── */
 
-/* ─── Formacao ───────────────────────────────────────────────────────────── */
-/* div-formacao */
-.div-formacao {
-  border-radius: 0.3rem;
-  background: var(
-    --divs-x,
-    linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%)
-  );
+/** div-principal-formacao */
+.div-main-formacao {
+  border-radius: 1rem;
+  background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
 }
 
-/* formacoes */
+/** div-formacoes */
+/* formacao-1 */
 .div-formacoes-1 {
-  border-radius: 0.3rem;
   background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
-  transition: 0.2s;
 }
-/* .div-formacoes-1:hover {
-  box-shadow: #291755 5px 5px 0px, #221246 10px 10px 0px;
-} */
 
+/* formacao-3 */
 .div-formacoes-2 {
-  border-radius: 0.3rem;
   background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
-  transition: 0.2s;
 }
-/* .div-formacoes-2:hover {
-  box-shadow: #291755 -5px 5px 0px, #221246 -10px 10px 0px;
-} */
 
+/* formacao-geral */
 .div-formacoes-1,
 .div-formacoes-2 {
-  width: 84% !important;
-  margin-right: auto !important;
-  margin-left: auto !important;
-  padding: 1.3rem !important;
-  margin-top: 1.5rem !important;
+  width: 84%;
+  padding: 1.3rem;
+  margin-top: 1.5rem;
+  border-radius: 0.8rem;
+  transition: 0.2s;
 }
 
-/* .div-formacoes-1:hover,
-.div-formacoes-2:hover {
-  background-color: #00000096;
-} */
+/* ─── Contato ───────────────────────────── */
 
-/* botões-formacao */
-.botao-formacao {
-  background-color: #00000000;
-  color: white;
-  border-color: #ffffff48;
-  border-radius: 0.2rem;
-  transition: 0.1s;
-  font-weight: 500;
-  height: 40px;
-}
-.botao-formacao:hover {
-  border-color: white;
-}
-
-/* ─── Contato ────────────────────────────────────────────────────────────── */
-/* div-contato */
-.div-contato {
+/** div-principal-contato */
+.div-main-contato {
   margin-top: 6rem;
   background: linear-gradient(180deg, #17122000 0%, #2d2a61 100%);
   transition: 0.2s;
-}
-
-/* link-contato */
-.link-contato a {
-  text-decoration: none;
-  color: white;
-  transition: 0.2s;
-}
-
-.link-contato a:hover {
-  text-shadow: 0px 0px 20px #ffffffd0;
-}
-
-/* icone-links */
-.icone-links {
-  height: auto;
-  width: 5%;
-  margin-bottom: 2px;
 }
