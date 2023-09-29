@@ -9,7 +9,7 @@ body {
 b { font-weight: 600; }
 
 /*! ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
-/** disativar-imagem */
+/** desativar-imagem */
 .dis-img { pointer-events: none; }
 
 /** fontes */
@@ -48,10 +48,10 @@ b { font-weight: 600; }
 .btn-2 {
   background-color: transparent;
   color: white;
-  border-color: #ffffff48;
+  border: 2px solid #ffffff48;
   border-radius: 0.5rem;
   transition: 0.1s;
-  font-weight: 500;
+  font-weight: 600;
   height: 40px;
 }
 .btn-2:hover { /*hover*/
@@ -87,7 +87,7 @@ b { font-weight: 600; }
 .img-contato {
   transition: 0.2s;
 }
-.img-contato:hover {
+.img-contato:hover { /*hover*/
   transform: translateX(2px);
 }
 
@@ -105,7 +105,7 @@ b { font-weight: 600; }
   padding: 0.4rem;
   border-radius: 0.5rem;
 }
-.link-1:hover * {
+.link-1:hover * { /*hover*/
   box-shadow: 0 2px 10px #ffffff48;
   color: #000000 !important;
   background-color: white;
@@ -115,7 +115,7 @@ b { font-weight: 600; }
 
 /* ─── Apresentação ───────────────────────────── */
 
-/** div-principal-apresentacao */
+/** div-principal-apresentação */
 .div-main-apresentacao {
   border-radius: 1rem;
   background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
@@ -190,24 +190,24 @@ b { font-weight: 600; }
 
 /* ─── Formação ───────────────────────────── */
 
-/** div-principal-formacao */
+/** div-principal-formação */
 .div-main-formacao {
   border-radius: 1rem;
   background: linear-gradient(180deg, #3b2557bf 0%, #15111d00 100%);
 }
 
 /** div-formacoes */
-/* formacao-1 */
+/* formação-1 */
 .div-formacoes-1 {
   background: linear-gradient(45deg, #1d152e00 0%, #3b207499 100%);
 }
 
-/* formacao-3 */
+/* formação-3 */
 .div-formacoes-2 {
   background: linear-gradient(45deg, #3b207499 0%, #1d152e00 100%);
 }
 
-/* formacao-geral */
+/* formação-geral */
 .div-formacoes-1,
 .div-formacoes-2 {
   width: 84%;
