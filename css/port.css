@@ -60,6 +60,14 @@ b { font-weight: 600; }
 
 /*? ─── Imagens ─────────────────────────────────────────────────────────────── */
 
+/** imagem-animada-botao-1 */
+.img-btn-1 {
+  transition: 0.3s;
+}
+.img-btn-1:hover { /*hover*/
+  transform: translateY(-2px);
+}
+
 /** imagem-animada-apresentação */
 .img-anim {
   transition: 1s;
