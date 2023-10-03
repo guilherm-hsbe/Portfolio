@@ -83,6 +83,15 @@ b { font-weight: 600; }
   width: 33% !important;
 }
 
+.img-star {
+  font-size: 20px;
+  transition: 0.2s;
+  transform: translateY(-3px);
+}
+.img-star:hover {
+  color: #fff2b2 !important;
+}
+
 /** imagens-contato */
 .img-contato {
   transition: 0.2s;
@@ -112,6 +121,22 @@ b { font-weight: 600; }
 }
 
 /*? ─── DIVs ─────────────────────────────────────────────────────────────── */
+
+.em-dev {
+  width: fit-content;
+  background-color: #ffffffeb;
+  color: black;
+  margin-right: auto!important;
+  margin-left: auto!important;
+  text-align: center;
+  border-radius: 0.5rem;
+  padding: 0.3rem;
+}
+.em-dev * {
+  font-size: 16px;
+  margin-bottom: 0;
+  user-select: none;
+}
 
 /* ─── Apresentação ───────────────────────────── */
 
