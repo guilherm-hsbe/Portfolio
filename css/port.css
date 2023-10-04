@@ -412,8 +412,8 @@ b { font-weight: 600; }
     width: 80%; }
 
   /*formação*/
-  .div-main-formacao { width: 51%; }
-  .img-principal-formacao { width: 46%; }
+  .div-main-formacao { width: 65%; }
+  .img-principal-formacao { width: 59%; }
   .div-formacoes-1, .div-formacoes-2 { width: 100%; }
 }
 
