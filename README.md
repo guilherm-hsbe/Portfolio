@@ -1,3 +1,11 @@
-# Oi, este é o repositório do meu portfólio profissional!
+# Portfólio - guilherm-hsbe :computer:
 
-<!-- abc -->
+## Oi :wave:, bem-vindo(a) ao repositório do meu portfólio profissional!
+Através deste portfólio é possível acompanhar toda atualização de minha vida profissional, incluindo minhas atividades e projetos recentes, exibição de hablidades e formações/certificados relevantes.
+
+### Sempre atualizado :sparkles:
+Meu princípio é sempre manter este repositório atualizado com o que houver de novo e relevante em minha carreira profissional como desenvolvedor.
+
+### Responsivo :iphone:
+O layout da página é responsivo, desde telas de smartphones a monitores desktop.
+Cuidarei da responsividade sempre que adicionar novos elementos significativos à página.
