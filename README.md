@@ -11,4 +11,4 @@ O layout da página é responsivo, desde telas de smartphones a monitores deskto
 Cuidarei da responsividade sempre que adicionar novos elementos significativos à página.
 
 ### Página estática :desktop_computer:
-Você pode visualizar a página estática do portfolio por este link :point_right: **https://guilherm-hsbe.github.io/Portfolio/**
+Você pode visualizar a página estática do portfólio por este link :point_right: **https://guilherm-hsbe.github.io/Portfolio/**
