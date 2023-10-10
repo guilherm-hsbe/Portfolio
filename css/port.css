@@ -23,6 +23,14 @@ b { font-weight: 600; }
   color: transparent;
 }
 
+/** títulos */
+.nome-principal {
+  text-align: center;
+  color: aliceblue;
+  font-size: 70px;
+  font-weight: 700;
+}
+
 /*! ─── Componentes ──────────────────────────────────────────────── */
 
 /*? ─── Botões ─────────────────────────────────────────────────────────────── */
@@ -70,15 +78,18 @@ b { font-weight: 600; }
 
 /** imagem-animada-apresentação */
 .img-anim {
-  transition: 1s;
-  width: 33%;
+  /* transition: 1s; */
+  width: 30%;
+  border-radius: 20rem;
+  height: 389px;
+  object-fit: cover;
 }
 .img-anim:hover { /*hover*/
-  transform: translateY(13px);
-  z-index: 102;
+  /* transform: translateY(13px);
+  z-index: 102; */
 }
 .img-anim:active { /*active*/
-  transform: translateY(-13px);
+  /* transform: translateY(-13px); */
 }
 
 /** imagem-principal-projetos */
@@ -321,11 +332,20 @@ b { font-weight: 600; }
 
 /*? ─── Responsividade ─────────────────────────────────────────────────────────────── */
 
+@media (max-width: 1399px) {
+  .img-anim {
+    height: 335px;
+  }
+}
+
 /** 1º layout */
 @media (max-width: 1199px) {
   /*apresentação*/
   .div-main-apresentacao { width: 60%; }
-  .img-anim { width: 40%; }
+  .img-anim { 
+    width: 40%; 
+    height: 375px;
+  }
 
   /*projetos*/
   .div-main-projetos { width: 40%; }
@@ -352,7 +372,10 @@ b { font-weight: 600; }
 @media (max-width: 991px) {
   /*apresentação*/
   .div-main-apresentacao { width: 80%; }
-  .img-anim { width: 60%; }
+  .img-anim { 
+    width: 50%; 
+    height: 349px;
+  }
 
   /*projetos*/
   .div-main-projetos { width: 50%; }
@@ -392,8 +415,12 @@ b { font-weight: 600; }
 /** 3º layout */
 @media (max-width: 767px) {
   /*apresentação*/
+  .nome-principal { font-size: 65px; }
   .div-main-apresentacao { width: 100%; }
-  .img-anim { width: 85%; }
+  .img-anim { 
+    width: 65%; 
+    height: 336px;
+  }
 
   /*projetos*/
   .div-main-projetos { width: 70%; }
@@ -419,6 +446,12 @@ b { font-weight: 600; }
 
 /** extra-layout */
 @media (max-width: 514px) {
+  /*apresentação*/
+  .img-anim {
+    width: 355px;
+    height: 355px;
+  }
+
   /*pills*/
   .div-pill * { display: none; }
 
