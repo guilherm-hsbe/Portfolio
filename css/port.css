@@ -1,3 +1,11 @@
+/*! ─── Propriedades Customizadas ─────────────────────────────────────────────────────── */
+:root {
+  --fd-purple-1: purple; 
+  --fd-purple-2: #611dc1de;
+  --fd-purple-3: #611dc1bb;
+  --fd-purple-4: #611dc198;
+}
+
 /*! ─── Classes Gerais ─────────────────────────────────────────────────────── */
 * { font-family: 'Barlow', sans-serif; }
 
@@ -9,6 +17,12 @@ body {
 b { font-weight: 600; }
 
 /*! ─── Classes Reutilizáveis ──────────────────────────────────────────────── */
+/** cores-de-fundo */
+.fd-purple-1 { background-color: var(--fd-purple-1) !important; }
+.fd-purple-2 { background-color: var(--fd-purple-2) !important; }
+.fd-purple-3 { background-color: var(--fd-purple-3) !important; }
+.fd-purple-4 { background-color: var(--fd-purple-4) !important; }
+
 /** desativar-imagem */
 .dis-img { pointer-events: none; }
 
@@ -26,8 +40,8 @@ b { font-weight: 600; }
 /** títulos */
 .nome-principal {
   text-align: center;
-  color: aliceblue;
-  font-size: 70px;
+  color: white;
+  font-size: 60px;
   font-weight: 700;
 }
 
@@ -60,7 +74,7 @@ b { font-weight: 600; }
   border-radius: 0.5rem;
   transition: 0.1s;
   font-weight: 600;
-  height: 40px;
+  height: auto;
 }
 .btn-2:hover { /*hover*/
   border-color: white;
@@ -79,10 +93,11 @@ b { font-weight: 600; }
 /** imagem-animada-apresentação */
 .img-anim {
   /* transition: 1s; */
-  width: 30%;
+  width: 28%;
+  height: 363px;
   border-radius: 20rem;
-  height: 389px;
   object-fit: cover;
+  object-position: 0 20%;
 }
 .img-anim:hover { /*hover*/
   /* transform: translateY(13px);
@@ -321,6 +336,23 @@ b { font-weight: 600; }
 
 /*? ─── Outros ─────────────────────────────────────────────────────────────── */
 
+/** linguagens-projetos */
+.progress-stacked {
+  background-color: transparent;
+  margin-bottom: 0.8rem;
+  height: 20px;
+}
+.progress-stacked .progress {
+  height: 13px;
+  margin: 0.2rem;
+  background-color: transparent;
+}
+.progress-stacked .progress-bar {
+  border-radius: 0.3rem;
+  font-size: 12px;
+  font-weight: 600;
+}
+
 /** barra-progresso */
 .progress {
   background-color: #c5c5c5;
@@ -334,7 +366,7 @@ b { font-weight: 600; }
 
 @media (max-width: 1399px) {
   .img-anim {
-    height: 335px;
+    height: 313px;
   }
 }
 
@@ -444,12 +476,21 @@ b { font-weight: 600; }
   .div-formacoes-1, .div-formacoes-2 { width: 100%; }
 }
 
+@media (max-width: 575px) {
+  /*apresentação*/
+  .img-anim {
+    width: 310px;
+    height: 310px;
+  }
+}
+
+
 /** extra-layout */
 @media (max-width: 514px) {
   /*apresentação*/
   .img-anim {
-    width: 355px;
-    height: 355px;
+    width: 250px;
+    height: 250px;
   }
 
   /*pills*/
