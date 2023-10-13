@@ -1,18 +1,18 @@
-function copyText() {
-    var textoCopiado = document.getElementById("texto");
-    var areaDeTransferencia = document.createElement("textarea");
-    areaDeTransferencia.value = textoCopiado.textContent;
-    document.body.appendChild(areaDeTransferencia);
-    areaDeTransferencia.select();
+// URL da API do GitHub de informações sobre o último commit
+const apiUrl = 'https://api.github.com/repos/guilherm-hsbe/Portfolio/commits/main';
 
-    navigator.clipboard.writeText(textoCopiado.textContent)
-        .then(() => {
-            alert("Texto copiado para a área de transferência!");
-        })
-        .catch((err) => {
-            console.error('Não foi possível copiar o texto: ', err);
-        });
-
-    document.body.removeChild(areaDeTransferencia);
-    alert("Texto copiado para a área de transferência!");
+// Buscar a data do último commit
+async function fetchLastCommitDate() {
+    try {
+        const response = await fetch(apiUrl);
+        const data = await response.json();
+        const commitDate = new Date(data.commit.committer.date);
+        const formattedDate = commitDate.toLocaleDateString();
+        document.getElementById('last-commit-date').textContent = formattedDate;
+    } catch (error) {
+        console.error('(erro ao buscar o último commit:', error, ')');
+        document.getElementById('last-commit-date').textContent = '(erro ao buscar a data do último commit.)';
+    }
 }
+
+fetchLastCommitDate();
