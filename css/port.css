@@ -1,9 +1,9 @@
 /*! ─── Propriedades Customizadas ─────────────────────────────────────────────────────── */
 :root {
-  --fd-purple-1: purple; 
-  --fd-purple-2: #611dc1de;
-  --fd-purple-3: #611dc1bb;
-  --fd-purple-4: #611dc198;
+  --fd-purple-1: rgba(98, 29, 195, 0.7); 
+  --fd-purple-2: rgba(97, 29, 193, 0.6);
+  --fd-purple-3: rgba(97, 29, 193, 0.5);
+  --fd-purple-4: rgba(97, 29, 193, 0.4);
 }
 
 /*! ─── Classes Gerais ─────────────────────────────────────────────────────── */
