@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* ─── Variables ───────────────────────────── */
+/* ─── Global ───────────────────────────── */
 html {
   font-size: 16px;
   color: #2b2b2b;
@@ -17,6 +20,11 @@ main {
   flex: 1;
   margin: 0;
   margin-top: 6rem;
+}
+
+/* ─── Classes ───────────────────────────── */
+.has-gap-1-per {
+  gap: 1%;
 }
 
 /*# sourceMappingURL=style-output.css.map */
