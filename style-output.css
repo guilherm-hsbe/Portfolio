@@ -27,4 +27,10 @@ main {
   gap: 1%;
 }
 
+@media (width <= 640px) {
+  .has-row-gap-sm-mobile {
+    row-gap: 0.3rem;
+  }
+}
+
 /*# sourceMappingURL=style-output.css.map */
