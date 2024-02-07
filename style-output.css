@@ -18,8 +18,7 @@ body {
 
 main {
   flex: 1;
-  margin: 0;
-  margin-top: 6rem;
+  margin: 6rem 0;
 }
 
 /* ─── Classes ───────────────────────────── */
