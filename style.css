@@ -1,0 +1,9 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+.custom-tooltip {
+    --bs-tooltip-bg: #f0f0f0;
+    --bs-tooltip-color: #000000;
+    font-size: 11px;
+}
